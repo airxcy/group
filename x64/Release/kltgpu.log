@@ -1,0 +1,56 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (kltgpu.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Compiling CUDA source file src\trackers\klttracker.cu...
+  
+  C:\Users\xcy\Documents\CVProject\group>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I.\GeneratedFiles -I. -IC:\Qt\5.4\msvc2013_64_opengl\include -I.\GeneratedFiles\Release -IC:\Qt\5.4\msvc2013_64_opengl\include\QtCore -IC:\Qt\5.4\msvc2013_64_opengl\include\QtGui -IC:\Qt\5.4\msvc2013_64_opengl\include\QtOpenGL -IC:\Qt\5.4\msvc2013_64_opengl\include\QtWidgets -Iincludes -IC:\opencv\build\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -Xcompiler "/EHsc /W1 /nologo /O2 /Zi  /MD  " -o x64\Release\klttracker.cu.obj "C:\Users\xcy\Documents\CVProject\group\src\trackers\klttracker.cu" 
+C:\opencv\build\include\opencv2/ml/ml.hpp(955): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvForestTree"
+C:\opencv\build\include\opencv2/ml/ml.hpp(1143): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvBoostTree"
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(73): warning : variable "xmid" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(99): warning : variable "nPair" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(259): warning : variable "maxdist" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(259): warning : variable "dtmp" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(259): warning : variable "totlen" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(260): warning : variable "bptr" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(256): warning : variable "minlen" was declared but never referenced
+C:\opencv\build\include\opencv2/ml/ml.hpp(955): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvForestTree"
+C:\opencv\build\include\opencv2/ml/ml.hpp(1143): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvBoostTree"
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(73): warning : variable "xmid" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(99): warning : variable "nPair" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(211): warning : a __device__ variable "h_pairvec" cannot be directly written in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(213): warning : a __device__ variable "h_netUpdate" cannot be directly written in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(259): warning : variable "maxdist" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(259): warning : variable "dtmp" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(259): warning : variable "totlen" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(260): warning : variable "bptr" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(256): warning : variable "minlen" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(288): warning : a __device__ variable "d_curvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(289): warning : a __device__ variable "d_isnewmat" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(290): warning : a __device__ variable "d_isnewmat" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(290): warning : a __device__ variable "d_curvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(291): warning : a __device__ variable "d_isnewmat" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(369): warning : a __device__ variable "d_ofvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(370): warning : a __device__ variable "d_ofvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(371): warning : a __device__ variable "d_neighbor" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(372): warning : a __device__ variable "d_netOrder" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(374): warning : a __device__ variable "d_neighbor" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(374): warning : a __device__ variable "d_ofvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(374): warning : a __device__ variable "d_pairvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(374): warning : a __device__ variable "d_netOrder" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(375): warning : a __device__ variable "h_pairvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(375): warning : a __device__ variable "d_pairvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(377): warning : a __device__ variable "d_neighbor" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(379): warning : a __device__ variable "d_group" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(385): warning : a __device__ variable "d_netUpdate" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(386): warning : a __device__ variable "d_group" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(386): warning : a __device__ variable "d_pairvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(386): warning : a __device__ variable "d_netUpdate" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(387): warning : a __device__ variable "h_netUpdate" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(387): warning : a __device__ variable "d_netUpdate" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(388): warning : a __device__ variable "d_group" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(388): warning : a __device__ variable "d_netUpdate" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(388): warning : a __device__ variable "d_netOrder" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(389): warning : a __device__ variable "d_group" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(402): warning : a __device__ variable "d_group" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(402): warning : a __device__ variable "d_crossDist" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/group/src/trackers/klttracker.cu(403): warning : a __device__ variable "d_crossDist" cannot be directly read in a host function
+  klttracker.cu
+  kltgpu.vcxproj -> C:\Users\xcy\Documents\CVProject\group\x64\Release\group.exe
